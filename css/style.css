@@ -1,0 +1,18 @@
+
+.sk_tbdr{
+    border:1px dashed black;
+}
+#sk_nav{
+    height: 75px;
+}
+#sk_main{
+      margin-top: 75px;
+      min-height: 1000px;
+}
+#sk_ft{
+    height: 400px;
+}
+span a {
+    color: black;
+    font-size: 15px;
+}

@@ -1,6 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .sk_tbdr{
-    border:1px dashed black;
+    /* border:1px dashed black; */
 }
 #sk_nav{
     height: 75px;
@@ -16,3 +19,56 @@ span a {
     color: black;
     font-size: 15px;
 }
+.sk_logo {
+    overflow: hidden;
+    /* height:75px; */
+    width: auto;
+}
+.sk_logo img{
+
+    /* overflow: hidden; */
+    height:75px;
+    width: auto;
+}
+
+
+
+    .s_drp{
+        color: black;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .sk-height input{
+        height: 100%;
+        font-size: larger;
+    }
+    .sk-height input:focus{
+     border-bottom: 6px solid rgb(255, 217, 0);  
+     box-shadow: none;
+    }
+    .sk_btn{
+        height: 100%;
+        border-radius: 0%;
+        background-color:rgb(255, 217, 0) ;
+    }
+
+   
+   
+    .sk_fs input{
+          font-size: 15px;
+    }    
+    .sk_icon{
+        font-weight: 0;
+        font-size: 15px;
+    }
+    .sk_text-dark a{
+        color: black;
+        text-decoration: none;
+    }
+    
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl 
+    {
+        max-width: 1018px;
+    }}  
